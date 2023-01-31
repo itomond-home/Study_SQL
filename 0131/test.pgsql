@@ -8,8 +8,8 @@ CREATE TABLE Test
   Score INTEGER,
   Grade CHAR(8));
 
-\COPY test (ID, Age, Sex, Date, Score, Grade) 
-  FROM 'C:/Users/rutai/Documents/Study_SQL/data.csv' WITH CSV HEADER;
+COPY test (ID, Age, Sex, Date, Score, Grade) 
+  FROM 'C:\Users\Public\Documents\Study_SQL\data.csv' WITH CSV HEADER;
 
 
 SELECT avg(Age) FROM test GROUP BY Sex;
