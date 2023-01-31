@@ -9,7 +9,7 @@ CREATE TABLE Test
   Grade CHAR(8));
 
 COPY test (ID, Age, Sex, Date, Score, Grade) 
-  FROM 'C:\\Users\\rutai\\OneDrive\\Documents\\GitHub\\Study_SQL\\0131\\data.csv' WITH CSV HEADER;
+  FROM 'C:\Users\rutai\OneDrive\Documents\GitHub\Study_SQL\0131\data.csv' WITH CSV HEADER;
 
 
 SELECT avg(Age) FROM test GROUP BY Sex;
