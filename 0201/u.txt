@@ -1,0 +1,4 @@
+伊藤遼太
+Windows11
+Python,C++,R,Java,JavaScript
+Pytorchが好きです。
